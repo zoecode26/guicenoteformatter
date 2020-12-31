@@ -2,7 +2,7 @@ package com.company;
 
 import com.google.inject.Inject;
 import com.google.inject.assistedinject.Assisted;
-import com.google.inject.assistedinject.AssistedInject;
+
 
 public class Note implements Formatter {
 
@@ -17,7 +17,6 @@ public class Note implements Formatter {
         this.body = body;
         this.formatter = formatter;
     }
-
 
     public void display(){
         formatter.format(this);

@@ -13,6 +13,8 @@ public class Main {
 
         Injector injector = Guice.createInjector(new GuiceBindingModule());
         NoteFactory factory = injector.getInstance(NoteFactory.class);
+
+        //EXAMPLE OF USAGE:
         Note note = factory.create("I am the title", "I am the body");
         note.display();
 

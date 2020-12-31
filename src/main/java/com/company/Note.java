@@ -10,6 +10,7 @@ public class Note implements Formatter {
     private final String body;
     private final NoteFormatter formatter;
 
+    //Injecting a formatter object so it's display method can be called to print the formatted note
     @Inject
     public Note(@Assisted("title") String title, @Assisted("body") String body, NoteFormatter formatter) {
 

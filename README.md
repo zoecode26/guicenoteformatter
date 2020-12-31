@@ -3,6 +3,9 @@
 This is a very simple note formatter application that takes a title and a body and prints it with headings.
 It was created for the purposes of learning the basics of Guice for dependency injection.
 
+## Installing Dependencies
+```mvn install```
+
 ## Project Structure
 Consists of two main classes:
 - The Note class that hold the title and body attributes and that has a display method to print the formatted note to the user (by calling the format method of the NoteFormatter).
